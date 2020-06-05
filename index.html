@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于地摊创投项目意向调查</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- <script src="jquery-1.10.2.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"> -->
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            width: 210px;
+            height: 70px;
+            margin: 0 auto;
+            /* margin-top: -72px; */
+            display: block;
+            /* background: #fafaf8; */
+        }
+
+        .bg {
+            width: 100%;
+        }
+
+        .container {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .qrcode {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+            display: block;
+            margin-top: 20px;
+
+        }
+
+        .tips {
+            /* margin: 0 auto; */
+            text-align: center;
+        }
+
+        .btn-primary {
+            width: 80% !important;
+            margin: 0 auto;
+            display: block;
+            margin-top: 20px;
+        }
+
+        .form-check {
+            margin: 10px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="bg" src="./1.jpg" alt="">
+    <img class="logo" src="./logo.png" alt="">
+    <div class="title">关于地摊创投合作项目意向调查</div>
+    <div class="container">
+        <form action="">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">姓名：</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="请输入你的名字" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput2">电话：</label>
+                <input type="tel" class="form-control" id="exampleFormControlInput2" placeholder="请输入你的电话">
+            </div>
+            <div class="form-group">
+                <label>你的角色：</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="blankCheckbox1" value="参与投资" name='duoxuan1'>
+                    <label class="form-check-label" for="blankCheckbox1">参与投资</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="blankCheckbox2" value="可提供产品销售" name='duoxuan1'>
+                    <label class="form-check-label" for="blankCheckbox2">可提供产品销售</label>
+                    <input type="text" class="form-control product" id="exampleFormControlInput3" placeholder="请留下产品信息">
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="blankCheckbox3" value="可提供培训技术支持"
+                        name='duoxuan1'>
+                    <label class="form-check-label" for="blankCheckbox3">可提供培训技术支持</label>
+                    <input type="text" class="form-control technology" id="exampleFormControlInput4"
+                        placeholder="如食品制作">
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="blankCheckbox4" value="提供顾问服务" name='duoxuan1'>
+                    <label class="form-check-label" for="blankCheckbox4">提供顾问服务</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>关于地摊项目你对哪项感兴趣：</label>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox5" value="小吃"
+                        name='duoxuan2'>
+                    <label class="form-check-label" for="blankCheckbox5">小吃</label>
+
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="blankCheckbox6" value="服饰" name='duoxuan2'>
+                    <label class="form-check-label" for="blankCheckbox6">服饰</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="blankCheckbox7" value="日用品" name='duoxuan2'>
+                    <label class="form-check-label" for="blankCheckbox7">日用品</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="blankCheckbox8" value="书报刊" name='duoxuan2'>
+                    <label class="form-check-label" for="blankCheckbox8">书报刊</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="blankCheckbox9" value="电子产品" name='duoxuan2'>
+                    <label class="form-check-label" for="blankCheckbox9">电子产品</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="blankCheckbox10" value="生鲜水果" name='duoxuan2'>
+                    <label class="form-check-label" for="blankCheckbox10">生鲜水果</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="blankCheckbox11" value="电子产品" name='duoxuan2'>
+                    <label class="form-check-label" for="blankCheckbox11">电子产品</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="blankCheckbox12" value="其他" name='duoxuan2'>
+                    <label class="form-check-label" for="blankCheckbox12">其他</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput5" placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">关于地摊项目你愿意合作经营吗：</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="愿意"
+                        checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        愿意
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="不愿意">
+                    <label class="form-check-label" for="exampleRadios2">
+                        不愿意
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>如果你有好的想法或者点子请在下方输入信息：</label>
+                <input type="text" class="form-control" id="exampleFormControlInput6" placeholder="开启你的头脑风暴吧">
+            </div>
+            <button type="submit" class="btn btn-primary">提交</button>
+        </form>
+        <img class="qrcode" src="./qrcode_for_gh_559d7d4565af_258.jpg" alt="">
+        <div class="tips">欢迎关注5G时空</div>
+    </div>
+</body>
+<script>
+    window.onload = () => {
+        $('.btn-primary').click((e) => {
+            e.preventDefault()
+            let role = []
+            let hobby = []
+            $("input[name='duoxuan1']:checked").each(function () {
+                // console.log('角色' + $(this).attr("value"));
+                role.push($(this).attr("value"))
+            });
+            $("input[name='duoxuan2']:checked").each(function () {
+                // console.log('兴趣' + $(this).attr("value"));
+                hobby.push($(this).attr("value"))
+            });
+            // console.log(role);
+            role.push($('#exampleFormControlInput3').val())
+            role.push($('#exampleFormControlInput4').val())
+            // console.log(hobby);
+            hobby.push($('#exampleFormControlInput5').val())
+            // return
+            $.ajax({
+                type: 'POST',
+                url: 'http://form-api.icoeus.cn/',
+                data: {
+                    name: $('#exampleFormControlInput1').val(),
+                    mobile: $('#exampleFormControlInput2').val(),
+                    partner: $("input[name='exampleRadios']:checked").val(),
+                    other: $('#exampleFormControlInput6').val(),
+                    type: 'stall',
+                    role: role,
+                    hobby: hobby
+                },
+                success: function (res) {
+                    console.log(res);
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+            });
+        })
+    }
+</script>
+
+</html>
